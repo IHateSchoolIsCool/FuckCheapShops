@@ -13,8 +13,7 @@ w1:Button(
 w1:Button(
     "SchoolHub Dupe UI",
     function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/IHateSchoolIsCool/FuckCheapShops/main/SchoolHubV2'))('Fuck Cheap Shops')
-
+    https://raw.githubusercontent.com/IHateSchoolIsCool/FuckCheapShops/main/SchoolHUB%20Dupe%20UI
     end
 ) 
 
