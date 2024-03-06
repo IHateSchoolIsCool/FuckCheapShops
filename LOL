@@ -1,0 +1,315 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+local win = DiscordLib:Window("SchoolHub | Fuck Cheap Shops     Left Control = Hide Ui")
+
+local hme = win:Server("Home Tab", "")
+local Credits = hme:Channel("Credits")
+
+Credits:Label("Script Owner: IHateSchool")
+Credits:Label("Script Devs: IHateSchool, Cazed, BitRarOFC")
+Credits:Label("Testers: JinxMoke, ThugLifEven, Vaxeal, Pete <3 Jo1c")
+Credits:Label("Gui Dev: dawid#7205")
+
+local Shops = hme:Channel("Top Shops")
+
+Shops:Button("Wood Wonders Discord Server", function()
+    local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/666TranZit666/Interject/main/Discord%20Invite"))()
+    Module.Prompt({
+    invite = "https://discord.gg/WoodWonders",
+    name = "Wood Wonders",
+    })
+setclipboard("https://discord.gg/WoodWonders")
+end)
+
+Shops:Button("IBM Discord Server", function()
+    local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/666TranZit666/Interject/main/Discord%20Invite"))()
+    Module.Prompt({
+    invite = "https://discord.gg/cUUF94rnvw",
+    name = "IBM Remastered",
+    })
+setclipboard("https://discord.gg/cUUF94rnvw")
+end)
+
+Shops:Button("Jo1c Discord Server", function()
+    local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/666TranZit666/Interject/main/Discord%20Invite"))()
+    Module.Prompt({
+    invite = "https://discord.gg/TqJwn52axS",
+    name = "Jo1c Scripts",
+    })
+setclipboard("https://discord.gg/TqJwn52axS")
+end)
+
+
+Shops:Button("Vaxeal Discord Server", function()
+    local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/666TranZit666/Interject/main/Discord%20Invite"))()
+    Module.Prompt({
+    invite = "https://discord.gg/fEhC39AHzq",
+    name = "Vax's Bases",
+    })
+setclipboard("https://discord.gg/fEhC39AHzq")
+end)
+
+
+Shops:Button("BONCELy Discord Server", function()
+    local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/666TranZit666/Interject/main/Discord%20Invite"))()
+    Module.Prompt({
+    invite = "https://discord.gg/xZwAJarZXn",
+    name = "BONCELy Shop",
+    })
+setclipboard("https://discord.gg/xZwAJarZXn")
+end)
+
+Shops:Button("Jinx Discord Server", function()
+    local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/666TranZit666/Interject/main/Discord%20Invite"))()
+    Module.Prompt({
+    invite = "https://discord.gg/yW4fd58eEQ",
+    name = "Jinx Shop",
+    })
+setclipboard("https://discord.gg/yW4fd58eEQ")
+end)
+
+Shops:Button("ThugLifEven Discord Server", function()
+    local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/666TranZit666/Interject/main/Discord%20Invite"))()
+    Module.Prompt({
+    invite = "https://discord.gg/DtBmsmXkeK",
+    name = "ThugLifEven Shop",
+    })
+setclipboard("https://discord.gg/DtBmsmXkeK")
+end)
+
+
+Shops:Button("BitRarOFC Discord Server", function()
+    local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/666TranZit666/Interject/main/Discord%20Invite"))()
+    Module.Prompt({
+    invite = "https://discord.gg/UQhtkHjuCe",
+    name = "BitrarOFC Shop (New)",
+    })
+setclipboard("https://discord.gg/UQhtkHjuCe")
+end)
+
+Shops:Button("Triton Discord Server", function()
+        local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/666TranZit666/Interject/main/Discord%20Invite"))()
+    Module.Prompt({
+    invite = "https://discord.gg/BYfTzbT6rH",
+    name = "Triton Gifts & More",
+    })
+setclipboard("https://discord.gg/BYfTzbT6rH")
+end)
+
+
+
+local character = win:Server("Character", "")
+local CharacterT = character:Channel("Character Tab")
+
+    
+
+local CharacterT = character:Channel("Teleport Tab")
+
+
+
+
+local Bild = win:Server("Build Tab", "")
+
+
+
+
+local SLT = win:Server("Slot Tab", "")
+
+local LND = SLT:Channel("Land Tab")
+
+LND:Button("Free Land", function()
+    FreeLand()
+end)
+
+LND:Button("MaxLand", function()
+    MaxLand()
+end)
+
+LND:Button("Land Art", function()
+    LandArt()
+end)
+
+LND:Button("Claim Land Tool", function()
+    local mouse = game.Players.LocalPlayer:GetMouse()
+    local Claim = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+    Claim.Name = "Claim Land"
+    Claim.CanBeDropped = true
+    Claim.RequiresHandle = false
+
+    Claim.Activated:Connect(function()
+        if (mouse.Target.Name == "OriginSquare" or mouse.Target.Name == "Square")  then
+        if mouse.Target.Parent.Owner.Value == nil then
+        game:GetService("ReplicatedStorage").PropertyPurchasing.ClientPurchasedProperty:FireServer(mouse.Target.Parent,mouse.Target.Position)
+        game:GetService"Players".LocalPlayer.Character.HumanoidRootPart.CFrame = mouse.Target.CFrame
+    end
+    end
+    end)
+end)
+
+
+local Slot = SLT:Channel("Slot Tab")
+
+local Slot = Slot:Slider("Slot", 0, 6, 0, function(value)
+    Maxland = value
+end
+)
+
+Slot:Button("Reset Jump Power", function()
+    Slot:Change(50)
+    end)
+
+
+local Dpe = win:Server("Dupe Tab", "")
+
+local TDPE = Dpe:Channel("Time Dupe")
+
+
+local Dpe = TPDE:Slider("Slot", 0, 0, 6, function(t)
+    print(t)
+    end)
+
+
+local Dpe = TDPE:Slider("Time", 0, 0, 400, function(value)
+    MaxLandTime = value
+    end)
+
+
+
+TDPE:Button("Time Maxland Dupe", function()
+                 
+    function FreeLand()
+        for i,v in next, game:GetService("Workspace").Properties:GetChildren() do
+            if v:FindFirstChild("Owner") and v.Owner.Value == nil then
+                game:GetService("ReplicatedStorage").PropertyPurchasing.ClientPurchasedProperty:FireServer(v,v.OriginSquare.Position)
+                break
+            end
+        end
+    end
+                
+            scr=getsenv(game.Players.LocalPlayer.PlayerGui.PropertyPurchasingGUI.PropertyPurchasingClient)
+        
+        
+            spawn(function()
+            game:GetService("ReplicatedStorage").LoadSaveRequests.RequestLoad:InvokeServer(MaxLandSlot ,game.Players.LocalPlayer) -- add a slider for the slot number
+            end)
+            repeat wait()until game.Players.LocalPlayer.PlayerGui.PropertyPurchasingGUI.SelectPurchase.Visible
+            for i=1,20 do 
+                wait(1)
+                print(example[randomNum])
+                randomNum = Random.new() :NextInteger(1, #example)
+                scr.scrollSelection(-1)
+                wait()
+                print(example[randomNum])
+                randomNum = Random.new() :NextInteger(1, #example)
+                scr.selectionMade()
+                wait()
+                print(example[randomNum])
+                randomNum = Random.new() :NextInteger(1, #example)
+                scr.selectionMade()
+                wait(MaxLandTime) --add slider for time to leave
+                FreeLand()
+                game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
+            end
+end)
+
+
+
+local MDPE = Dpe:Channel("Manual Dupe")
+
+local TDPE = Dpe:Channel("Time Dupe")
+
+local CDPE = Dpe:Channel("Center Dupe")
+
+local GDPE = Dpe:Channel("Gift Dupe")
+
+local WDPE = Dpe:Channel("Wood Dupe")
+
+local ADPE = Dpe:Channel("Axe Dupe")
+
+local SDPE = Dpe:Channel("Sign Dupe")
+
+local PDPE = Dpe:Channel("Power Dupe")
+
+
+local Mains = win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
+
+local btns = Mains:Channel("Buttons")
+
+
+btns:Button("Kill all", function()
+DiscordLib:Notification("Notification", "Killed everyone!", "Okay!")
+end)
+
+btns:Seperator()
+
+btns:Button("Get max level", function()
+DiscordLib:Notification("Notification", "Max level!", "Okay!")
+end)
+
+local tgls = Mains:Channel("Toggles")
+
+tgls:Toggle("Auto-Farm",false, function(bool)
+print(bool)
+end)
+
+local sldrs = Mains:Channel("Sliders")
+
+local sldr = sldrs:Slider("Slide me!", 0, 1000, 400, function(t)
+print(t)
+end)
+
+sldrs:Button("Reset Jump Power", function()
+sldr:Change(50)
+end)
+
+local drops = Mains:Channel("Dropdowns")
+
+
+local drop = drops:Dropdown("Pick me!",{"Option 1","Option 2","Option 3","Option 4","Option 5"}, function(bool)
+print(bool)
+end)
+
+drops:Button("Clear", function()
+drop:Clear()
+end)
+
+drops:Button("Add option", function()
+drop:Add("Option")
+end)
+
+local clrs = Mains:Channel("Colorpickers")
+
+clrs:Colorpicker("ESP Color", Color3.fromRGB(255,1,1), function(t)
+print(t)
+end)
+
+local textbs = Mains:Channel("Textboxes")
+
+textbs:Textbox("Gun power", "Type here!", true, function(t)
+print(t)
+end)
+
+local lbls = Mains:Channel("Labels")
+
+lbls:Label("This is just a label.")
+
+local bnds = Mains:Channel("Binds")
+
+bnds:Bind("Kill bind", Enum.KeyCode.RightShift, function()
+print("Killed everyone!")
+end)
+
+Mains:Channel("by dawid#7205")
+
+
+
+
+
+
+
+
+
+
+
+
+
