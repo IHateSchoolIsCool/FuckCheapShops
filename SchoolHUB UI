@@ -186,7 +186,7 @@ function DiscordLib:Window(text)
 
 	MinimizeIcon.Name = "MinimizeLabel"
 	MinimizeIcon.Parent = MinimizeBtn
-	MinimizeIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	MinimizeIcon.BackgroundColor3 = Color3.fromRGB(245, 245, 245)
 	MinimizeIcon.BackgroundTransparency = 1.000
 	MinimizeIcon.Position = UDim2.new(0.189182192, 0, 0.128935531, 0)
 	MinimizeIcon.Size = UDim2.new(0, 17, 0, 17)
