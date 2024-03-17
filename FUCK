@@ -82,7 +82,7 @@ local function MakeDraggable(topbarobject, object)
 end
 
 local Discord = Instance.new("ScreenGui")
-Discord.Name = "SchoolHubV3.5"
+Discord.Name = "Discord"
 Discord.Parent = game.CoreGui
 Discord.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -1838,7 +1838,7 @@ function DiscordLib:Window(text)
 		ChannelContentFrame.BackgroundTransparency = 1.000
 		ChannelContentFrame.Position = UDim2.new(0.294561088, 0, 0.106338218, 0)
 		ChannelContentFrame.Size = UDim2.new(0, 429, 0, 333)
-		ChannelContentFrame.Image = "rbxassetid://16767715636"
+		ChannelContentFrame.Image = "http://www.roblox.com/asset/?id=13612116149"
 		ChannelContentFrame.ImageColor3 = Color3.fromRGB(220, 221, 222)
 
 		GlowChannel.Name = "GlowChannel"
@@ -2314,7 +2314,7 @@ function DiscordLib:Window(text)
 
 				Slider.Name = "Slider"
 				Slider.Parent = ChannelHolder
-				Slider.BackgroundColor3 = Color3.fromRGB(0,0,0)
+				Slider.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
 				Slider.BorderSizePixel = 0
 				Slider.Position = UDim2.new(0, 0, 0.216560602, 0)
 				Slider.Size = UDim2.new(0, 401, 0, 38)
