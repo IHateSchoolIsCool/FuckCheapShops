@@ -2321,7 +2321,7 @@ function DiscordLib:Window(text)
 				Slider.AutoButtonColor = false
 				Slider.Font = Enum.Font.Gotham
 				Slider.Text = ""
-				Slider.TextColor3 = Color3.fromRGB(255, 255, 255)
+				Slider.TextColor3 = Color3.fromRGB(255,255,255)
 				Slider.TextSize = 14.000
 
 				SliderTitle.Name = "SliderTitle"
