@@ -1118,7 +1118,7 @@ function DiscordLib:Window(text)
 	DiscordInfo.Position = UDim2.new(0.304721028, 0, 0.821333349, 0)
 	DiscordInfo.Size = UDim2.new(0, 133, 0, 44)
 	DiscordInfo.Font = Enum.Font.Gotham
-	DiscordInfo.Text = "Stable 1.0.0 (00001)  Host 0.0.0.1              fuck Oddy&Ernestlin   "
+	DiscordInfo.Text = "Stable 1.0.0 (00001)  Host 0.0.0.1                Roblox Lua Engine    "
 	DiscordInfo.TextColor3 = Color3.fromRGB(101, 108, 116)
 	DiscordInfo.TextSize = 13.000
 	DiscordInfo.TextWrapped = true
@@ -1838,7 +1838,7 @@ function DiscordLib:Window(text)
 		ChannelContentFrame.BackgroundTransparency = 1.000
 		ChannelContentFrame.Position = UDim2.new(0.294561088, 0, 0.106338218, 0)
 		ChannelContentFrame.Size = UDim2.new(0, 429, 0, 333)
-		ChannelContentFrame.Image = "rbxassetid://16767715636"
+		ChannelContentFrame.Image = "http://www.roblox.com/asset/?id=13612116149"
 		ChannelContentFrame.ImageColor3 = Color3.fromRGB(220, 221, 222)
 
 		GlowChannel.Name = "GlowChannel"
