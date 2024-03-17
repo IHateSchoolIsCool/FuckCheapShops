@@ -2133,7 +2133,7 @@ function DiscordLib:Window(text)
 
 				Button.Name = "Button"
 				Button.Parent = ChannelHolder
-				Button.BackgroundColor3 = Color3.fromRGB(114, 137, 228)
+				Button.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				Button.Size = UDim2.new(0, 401, 0, 30)
 				Button.AutoButtonColor = false
 				Button.Font = Enum.Font.Gotham
@@ -2184,7 +2184,7 @@ function DiscordLib:Window(text)
 
 				Toggle.Name = "Toggle"
 				Toggle.Parent = ChannelHolder
-				Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+				Toggle.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
 				Toggle.BorderSizePixel = 0
 				Toggle.Position = UDim2.new(0.261979163, 0, 0.190789461, 0)
 				Toggle.Size = UDim2.new(0, 401, 0, 30)
@@ -2202,7 +2202,7 @@ function DiscordLib:Window(text)
 				ToggleTitle.Size = UDim2.new(0, 200, 0, 30)
 				ToggleTitle.Font = Enum.Font.Gotham
 				ToggleTitle.Text = text
-				ToggleTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+				ToggleTitle.TextColor3 = Color3.fromRGB(127, 131, 137)
 				ToggleTitle.TextSize = 14.000
 				ToggleTitle.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -2321,18 +2321,18 @@ function DiscordLib:Window(text)
 				Slider.AutoButtonColor = false
 				Slider.Font = Enum.Font.Gotham
 				Slider.Text = ""
-				Slider.TextColor3 = Color3.fromRGB(255,255,255)
+				Slider.TextColor3 = Color3.fromRGB(255, 255, 255)
 				Slider.TextSize = 14.000
 
 				SliderTitle.Name = "SliderTitle"
 				SliderTitle.Parent = Slider
-				SliderTitle.BackgroundColor3 = Color3.fromRGB(0,0,0)
+				SliderTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				SliderTitle.BackgroundTransparency = 1.000
 				SliderTitle.Position = UDim2.new(0, 5, 0, -4)
 				SliderTitle.Size = UDim2.new(0, 200, 0, 27)
 				SliderTitle.Font = Enum.Font.Gotham
 				SliderTitle.Text = text
-				SliderTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+				SliderTitle.TextColor3 = Color3.fromRGB(127, 131, 137)
 				SliderTitle.TextSize = 14.000
 				SliderTitle.TextXAlignment = Enum.TextXAlignment.Left
 
