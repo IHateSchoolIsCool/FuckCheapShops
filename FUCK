@@ -2332,7 +2332,7 @@ function DiscordLib:Window(text)
 				SliderTitle.Size = UDim2.new(0, 200, 0, 27)
 				SliderTitle.Font = Enum.Font.Gotham
 				SliderTitle.Text = text
-				SliderTitle.TextColor3 = Color3.fromRGB(255,255,255)
+				SliderTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 				SliderTitle.TextSize = 14.000
 				SliderTitle.TextXAlignment = Enum.TextXAlignment.Left
 
