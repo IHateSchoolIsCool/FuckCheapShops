@@ -1164,7 +1164,7 @@ function DiscordLib:Window(text)
 		local NotificationHolder = Instance.new("TextButton")
 		NotificationHolder.Name = "NotificationHolder"
 		NotificationHolder.Parent = SettingsHolder
-		NotificationHolder.BackgroundColor3 = Color3.fromRGB(0,0,0)
+		NotificationHolder.BackgroundColor3 = Color3.fromRGB(22,22,22)
 		NotificationHolder.Position = UDim2.new(-0.00881057233, 0, -0.00266666664, 0)
 		NotificationHolder.Size = UDim2.new(0, 687, 0, 375)
 		NotificationHolder.AutoButtonColor = false
@@ -2021,14 +2021,14 @@ function DiscordLib:Window(text)
 
 			ChannelBtn.Name = text .. "ChannelBtn"
 			ChannelBtn.Parent = ServerChannelHolder
-			ChannelBtn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+			ChannelBtn.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
 			ChannelBtn.BorderSizePixel = 0
 			ChannelBtn.Position = UDim2.new(0.24118948, 0, 0.578947365, 0)
 			ChannelBtn.Size = UDim2.new(0, 160, 0, 30)
 			ChannelBtn.AutoButtonColor = false
 			ChannelBtn.Font = Enum.Font.SourceSans
 			ChannelBtn.Text = ""
-			ChannelBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+			ChannelBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
 			ChannelBtn.TextSize = 14.000
 
 			ChannelBtnCorner.CornerRadius = UDim.new(0, 6)
@@ -2086,14 +2086,14 @@ function DiscordLib:Window(text)
 			
 			ChannelBtn.MouseEnter:Connect(function()
 				if currentchanneltoggled ~= ChannelBtn.Name then
-				ChannelBtn.BackgroundColor3 = Color3.fromRGB(0,0,0)
-					ChannelBtnTitle.TextColor3 = Color3.fromRGB(0,0,0)
+				ChannelBtn.BackgroundColor3 = Color3.fromRGB(52,55,60)
+					ChannelBtnTitle.TextColor3 = Color3.fromRGB(220,221,222)
 				end
 			end)
 			
 			ChannelBtn.MouseLeave:Connect(function()
 				if currentchanneltoggled ~= ChannelBtn.Name then
-				ChannelBtn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+				ChannelBtn.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
 				ChannelBtnTitle.TextColor3 = Color3.fromRGB(114, 118, 125)
 				end
 			end)
@@ -2113,7 +2113,7 @@ function DiscordLib:Window(text)
 					ServerFrame.Visible = true
 				end
 				ChannelTitle.Text = text
-				ChannelBtn.BackgroundColor3 = Color3.fromRGB(0,0,0)
+				ChannelBtn.BackgroundColor3 = Color3.fromRGB(57,60,67)
 				ChannelBtnTitle.TextColor3 = Color3.fromRGB(255,255,255)
 				currentchanneltoggled = ChannelBtn.Name
 			end)
@@ -2121,7 +2121,7 @@ function DiscordLib:Window(text)
 			if fc == false then
 				fc = true
 				ChannelTitle.Text = text
-				ChannelBtn.BackgroundColor3 = Color3.fromRGB(0,0,0)
+				ChannelBtn.BackgroundColor3 = Color3.fromRGB(57,60,67)
 				ChannelBtnTitle.TextColor3 = Color3.fromRGB(255,255,255)
 				currentchanneltoggled = ChannelBtn.Name
 				ChannelHolder.Visible = true
@@ -2133,7 +2133,7 @@ function DiscordLib:Window(text)
 
 				Button.Name = "Button"
 				Button.Parent = ChannelHolder
-				Button.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+				Button.BackgroundColor3 = Color3.fromRGB(114, 137, 228)
 				Button.Size = UDim2.new(0, 401, 0, 30)
 				Button.AutoButtonColor = false
 				Button.Font = Enum.Font.Gotham
@@ -3151,7 +3151,7 @@ function DiscordLib:Window(text)
 
 				Label.Name = "Label"
 				Label.Parent = ChannelHolder
-				Label.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+				Label.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
 				Label.BorderSizePixel = 0
 				Label.Position = UDim2.new(0.261979163, 0, 0.190789461, 0)
 				Label.Size = UDim2.new(0, 401, 0, 30)
@@ -3163,7 +3163,7 @@ function DiscordLib:Window(text)
 
 				LabelTitle.Name = "LabelTitle"
 				LabelTitle.Parent = Label
-				LabelTitle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+				LabelTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				LabelTitle.BackgroundTransparency = 1.000
 				LabelTitle.Position = UDim2.new(0, 5, 0, 0)
 				LabelTitle.Size = UDim2.new(0, 200, 0, 30)
@@ -3184,7 +3184,7 @@ function DiscordLib:Window(text)
 
 				Keybind.Name = "Keybind"
 				Keybind.Parent = ChannelHolder
-				Keybind.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+				Keybind.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
 				Keybind.BorderSizePixel = 0
 				Keybind.Position = UDim2.new(0.261979163, 0, 0.190789461, 0)
 				Keybind.Size = UDim2.new(0, 401, 0, 30)
