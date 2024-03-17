@@ -589,7 +589,7 @@ function DiscordLib:Window(text)
 
 	EditBtn.Name = "EditBtn"
 	EditBtn.Parent = UserSettingsPad
-	EditBtn.BackgroundColor3 = Color3.fromRGB(116, 127, 141)
+	EditBtn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 	EditBtn.Position = UDim2.new(0.797671914, 0, 0.232142866, 0)
 	EditBtn.Size = UDim2.new(0, 55, 0, 30)
 	EditBtn.Font = Enum.Font.Gotham
@@ -2339,7 +2339,7 @@ function DiscordLib:Window(text)
 				SliderFrame.Name = "SliderFrame"
 				SliderFrame.Parent = Slider
 				SliderFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-				SliderFrame.BackgroundColor3 = Color3.fromRGB(79, 84, 92)
+				SliderFrame.BackgroundColor3 = Color3.fromRGB(0, 0, ,0)
 				SliderFrame.Position = UDim2.new(0.497999996, 0, 0.757000029, 0)
 				SliderFrame.Size = UDim2.new(0, 385, 0, 8)
 
