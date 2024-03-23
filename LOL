@@ -702,7 +702,6 @@ function DiscordLib:Window(text)
 		NotificationHolder.AutoButtonColor = false
 		NotificationHolder.Font = Enum.Font.SourceSans
 		NotificationHolder.Text = ""
-		NotificationHolder.Image = "rbxassetid://16767715636"
 		NotificationHolder.TextColor3 = Color3.fromRGB(0, 0, 0)
 		NotificationHolder.TextSize = 14.000
 		NotificationHolder.BackgroundTransparency = 1
@@ -1171,7 +1170,6 @@ function DiscordLib:Window(text)
 		NotificationHolder.AutoButtonColor = false
 		NotificationHolder.Font = Enum.Font.SourceSans
 		NotificationHolder.Text = ""
-		NotificationHolder.Image = "rbxassetid://16767715636"
 		NotificationHolder.TextColor3 = Color3.fromRGB(0, 0, 0)
 		NotificationHolder.TextSize = 14.000
 		NotificationHolder.BackgroundTransparency = 1
@@ -1539,7 +1537,7 @@ function DiscordLib:Window(text)
 		NotificationHolderMain.AutoButtonColor = false
 		NotificationHolderMain.Font = Enum.Font.SourceSans
 		NotificationHolderMain.Text = ""
-		NotificationHolderMain.Image = "rbxassetid://16767715636"
+		
 		NotificationHolderMain.TextColor3 = Color3.fromRGB(0, 0, 0)
 		NotificationHolderMain.TextSize = 14.000
 		TweenService:Create(
@@ -1556,7 +1554,6 @@ function DiscordLib:Window(text)
 		Notification.ClipsDescendants = true
 		Notification.Position = UDim2.new(0.524819076, 0, 0.469270051, 0)
 		Notification.Size = UDim2.new(0, 0, 0, 0)
-		Notification.Image = "rbxassetid://16767715636"
 		Notification.BackgroundTransparency = 1
 		
 		Notification:TweenSize(UDim2.new(0, 346, 0, 176), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .2, true)
@@ -1844,7 +1841,6 @@ function DiscordLib:Window(text)
 		ChannelContentFrame.Size = UDim2.new(0, 429, 0, 333)
 		ChannelContentFrame.Image = "rbxassetid://16767715636"
 		ChannelContentFrame.ImageColor3 = Color3.fromRGB(220, 221, 222)
-
 		GlowChannel.Name = "GlowChannel"
 		GlowChannel.Parent = ChannelContentFrame
 		GlowChannel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
