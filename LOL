@@ -702,6 +702,7 @@ function DiscordLib:Window(text)
 		NotificationHolder.AutoButtonColor = false
 		NotificationHolder.Font = Enum.Font.SourceSans
 		NotificationHolder.Text = ""
+		NotificationHolder.Image = "rbxassetid://16767715636"
 		NotificationHolder.TextColor3 = Color3.fromRGB(0, 0, 0)
 		NotificationHolder.TextSize = 14.000
 		NotificationHolder.BackgroundTransparency = 1
