@@ -1839,7 +1839,7 @@ function DiscordLib:Window(text)
 		ChannelContentFrame.BackgroundTransparency = 1.000
 		ChannelContentFrame.Position = UDim2.new(0.294561088, 0, 0.106338218, 0)
 		ChannelContentFrame.Size = UDim2.new(0, 429, 0, 333)
-		ChannelContentFrame.Image = "ImageBackground"
+		ChannelContentFrame.Image = getgenv().Image
 		ChannelContentFrame.ImageColor3 = Color3.fromRGB(220, 221, 222)
 		GlowChannel.Name = "GlowChannel"
 		GlowChannel.Parent = ChannelContentFrame
