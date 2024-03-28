@@ -168,7 +168,7 @@ function DiscordLib:Window(text)
 	CloseIcon.BackgroundTransparency = 1.000
 	CloseIcon.Position = UDim2.new(0.189182192, 0, 0.128935531, 0)
 	CloseIcon.Size = UDim2.new(0, 17, 0, 17)
-	CloseIcon.Image = "http://www..com/asset/?id=6035047409"
+	CloseIcon.Image = "http://www.roblox.com/asset/?id=6035047409"
 	CloseIcon.ImageColor3 = Color3.fromRGB(220, 221, 222)
 
 	MinimizeBtn.Name = "MinimizeButton"
@@ -190,7 +190,7 @@ function DiscordLib:Window(text)
 	MinimizeIcon.BackgroundTransparency = 1.000
 	MinimizeIcon.Position = UDim2.new(0.189182192, 0, 0.128935531, 0)
 	MinimizeIcon.Size = UDim2.new(0, 17, 0, 17)
-	MinimizeIcon.Image = "http://www..com/asset/?id=6035067836"
+	MinimizeIcon.Image = "http://www.roblox.com/asset/?id=6035067836"
 	MinimizeIcon.ImageColor3 = Color3.fromRGB(220, 221, 222)
 
 	ServersHolder.Name = "ServersHolder"
@@ -357,7 +357,7 @@ function DiscordLib:Window(text)
 	SettingsOpenBtnIco.BackgroundColor3 = Color3.fromRGB(220, 220, 220)
 	SettingsOpenBtnIco.BackgroundTransparency = 1.000
 	SettingsOpenBtnIco.Size = UDim2.new(0, 18, 0, 18)
-	SettingsOpenBtnIco.Image = "http://www..com/asset/?id=6031280882"
+	SettingsOpenBtnIco.Image = "http://www.roblox.com/asset/?id=6031280882"
 	SettingsOpenBtnIco.ImageColor3 = Color3.fromRGB(220, 220, 220)
 	local SettingsFrame = Instance.new("Frame")
 	local Settings = Instance.new("Frame")
@@ -456,7 +456,7 @@ function DiscordLib:Window(text)
 	CloseSettingsBtnIcon.BackgroundTransparency = 1.000
 	CloseSettingsBtnIcon.Position = UDim2.new(0, 2, 0, 2)
 	CloseSettingsBtnIcon.Size = UDim2.new(0, 19, 0, 19)
-	CloseSettingsBtnIcon.Image = "http://www..com/asset/?id=6035047409"
+	CloseSettingsBtnIcon.Image = "http://www.roblox.com/asset/?id=6035047409"
 	CloseSettingsBtnIcon.ImageColor3 = Color3.fromRGB(222, 222, 222)
 	
 	CloseSettingsBtn.MouseButton1Click:Connect(function()
@@ -681,7 +681,7 @@ function DiscordLib:Window(text)
 	SearchIco.BackgroundTransparency = 1.000
 	SearchIco.Position = UDim2.new(0.150000006, 0, 0.100000001, 0)
 	SearchIco.Size = UDim2.new(0, 15, 0, 15)
-	SearchIco.Image = "http://www..com/asset/?id=6034407084"
+	SearchIco.Image = "http://www.roblox.com/asset/?id=6034407084"
 	SearchIco.ImageColor3 = Color3.fromRGB(114, 118, 125)
 	
 	UserPanelUserIcon.MouseEnter:Connect(function()
@@ -792,7 +792,7 @@ function DiscordLib:Window(text)
 		Text2.Position = UDim2.new(-0.000594122568, 0, 0.141587839, 0)
 		Text2.Size = UDim2.new(0, 346, 0, 63)
 		Text2.Font = Enum.Font.Gotham
-		Text2.Text = "Enter your new profile in a  decal link."
+		Text2.Text = "Enter your new profile in a Roblox decal link."
 		Text2.TextColor3 = Color3.fromRGB(171, 172, 176)
 		Text2.TextSize = 14.000
 
@@ -902,7 +902,7 @@ function DiscordLib:Window(text)
 		Close2Icon.BackgroundTransparency = 1.000
 		Close2Icon.Position = UDim2.new(-0.0384615399, 0, 0.312910825, 0)
 		Close2Icon.Size = UDim2.new(0, 25, 0, 25)
-		Close2Icon.Image = "http://www..com/asset/?id=6035047409"
+		Close2Icon.Image = "http://www.roblox.com/asset/?id=6035047409"
 		Close2Icon.ImageColor3 = Color3.fromRGB(119, 122, 127)
 
 		CloseBtn1.Name = "CloseBtn1"
@@ -932,7 +932,7 @@ function DiscordLib:Window(text)
 		ResetBtn.TextSize = 13.000
 		
 		ResetBtn.MouseButton1Click:Connect(function()
-			pfp = "https://www..com/headshot-thumbnail/image?userId=".. game.Players.LocalPlayer.UserId .."&width=420&height=420&format=png"
+			pfp = "https://www.roblox.com/headshot-thumbnail/image?userId=".. game.Players.LocalPlayer.UserId .."&width=420&height=420&format=png"
 			UserImage.Image = pfp 
 			UserPanelUserImage.Image = pfp
 			SaveInfo()
@@ -1118,7 +1118,7 @@ function DiscordLib:Window(text)
 	DiscordInfo.Position = UDim2.new(0.304721028, 0, 0.821333349, 0)
 	DiscordInfo.Size = UDim2.new(0, 133, 0, 44)
 	DiscordInfo.Font = Enum.Font.Gotham
-	DiscordInfo.Text = "Stable 1.0.0 (00001)  Host 0.0.0.1                 Lua Engine    "
+	DiscordInfo.Text = "Stable 1.0.0 (00001)  Host 0.0.0.1                Roblox Lua Engine    "
 	DiscordInfo.TextColor3 = Color3.fromRGB(101, 108, 116)
 	DiscordInfo.TextSize = 13.000
 	DiscordInfo.TextWrapped = true
@@ -1403,7 +1403,7 @@ function DiscordLib:Window(text)
 		Close2Icon.BackgroundTransparency = 1.000
 		Close2Icon.Position = UDim2.new(-0.0384615399, 0, 0.312910825, 0)
 		Close2Icon.Size = UDim2.new(0, 25, 0, 25)
-		Close2Icon.Image = "http://www..com/asset/?id=6035047409"
+		Close2Icon.Image = "http://www.roblox.com/asset/?id=6035047409"
 		Close2Icon.ImageColor3 = Color3.fromRGB(119, 122, 127)
 
 		CloseBtn1.Name = "CloseBtn1"
@@ -1537,7 +1537,6 @@ function DiscordLib:Window(text)
 		NotificationHolderMain.AutoButtonColor = false
 		NotificationHolderMain.Font = Enum.Font.SourceSans
 		NotificationHolderMain.Text = ""
-		
 		NotificationHolderMain.TextColor3 = Color3.fromRGB(0, 0, 0)
 		NotificationHolderMain.TextSize = 14.000
 		TweenService:Create(
@@ -1839,7 +1838,7 @@ function DiscordLib:Window(text)
 		ChannelContentFrame.BackgroundTransparency = 1.000
 		ChannelContentFrame.Position = UDim2.new(0.294561088, 0, 0.106338218, 0)
 		ChannelContentFrame.Size = UDim2.new(0, 429, 0, 333)
-		ChannelContentFrame.Image = "rbxassetid://16767715720"
+		ChannelContentFrame.Image = "http://www.roblox.com/asset/?id=16767715720"
 		ChannelContentFrame.ImageColor3 = Color3.fromRGB(220, 221, 222)
 
 		GlowChannel.Name = "GlowChannel"
@@ -3147,42 +3146,35 @@ function DiscordLib:Window(text)
 			end
 			
 			function ChannelContent:Label(text)
-                local LabelFunc = {}
-                local Label = Instance.new("TextButton")
-                local LabelTitle = Instance.new("TextLabel")
+				local Label = Instance.new("TextButton")
+				local LabelTitle = Instance.new("TextLabel")
 
-                Label.Name = "Label"
-                Label.Parent = ChannelHolder
-                Label.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
-                Label.BorderSizePixel = 0
-                Label.Position = UDim2.new(0.261979163, 0, 0.190789461, 0)
-                Label.Size = UDim2.new(0, 401, 0, 30)
-                Label.AutoButtonColor = false
-                Label.Font = Enum.Font.Gotham
-                Label.Text = ""
-                Label.TextColor3 = Color3.fromRGB(255, 255, 255)
-                Label.TextSize = 14.000
+				Label.Name = "Label"
+				Label.Parent = ChannelHolder
+				Label.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
+				Label.BorderSizePixel = 0
+				Label.Position = UDim2.new(0.261979163, 0, 0.190789461, 0)
+				Label.Size = UDim2.new(0, 401, 0, 30)
+				Label.AutoButtonColor = false
+				Label.Font = Enum.Font.Gotham
+				Label.Text = ""
+				Label.TextColor3 = Color3.fromRGB(255, 255, 255)
+				Label.TextSize = 14.000
 
-                LabelTitle.Name = "LabelTitle"
-                LabelTitle.Parent = Label
-                LabelTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-                LabelTitle.BackgroundTransparency = 1.000
-                LabelTitle.Position = UDim2.new(0, 5, 0, 0)
-                LabelTitle.Size = UDim2.new(0, 200, 0, 30)
-                LabelTitle.Font = Enum.Font.Gotham
-                LabelTitle.Text = text
-                LabelTitle.TextColor3 = Color3.fromRGB(127, 131, 137)
-                LabelTitle.TextSize = 14.000
-                LabelTitle.TextXAlignment = Enum.TextXAlignment.Left
-
-                function LabelFunc:UpdateText(Text)
-                    LabelTitle.Text = Text;
-                end;
-
-                
-                ChannelHolder.CanvasSize = UDim2.new(0,0,0,ChannelHolderLayout.AbsoluteContentSize.Y)
-                return LabelFunc
-            end
+				LabelTitle.Name = "LabelTitle"
+				LabelTitle.Parent = Label
+				LabelTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				LabelTitle.BackgroundTransparency = 1.000
+				LabelTitle.Position = UDim2.new(0, 5, 0, 0)
+				LabelTitle.Size = UDim2.new(0, 200, 0, 30)
+				LabelTitle.Font = Enum.Font.Gotham
+				LabelTitle.Text = text
+				LabelTitle.TextColor3 = Color3.fromRGB(127, 131, 137)
+				LabelTitle.TextSize = 14.000
+				LabelTitle.TextXAlignment = Enum.TextXAlignment.Left
+				
+				ChannelHolder.CanvasSize = UDim2.new(0,0,0,ChannelHolderLayout.AbsoluteContentSize.Y)
+			end
 			
 			function ChannelContent:Bind(text, presetbind, callback)
 				local Key = presetbind.Name
