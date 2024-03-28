@@ -1841,6 +1841,7 @@ function DiscordLib:Window(text)
 		ChannelContentFrame.Size = UDim2.new(0, 429, 0, 333)
 		ChannelContentFrame.Image = "rbxassetid://16767715720"
 		ChannelContentFrame.ImageColor3 = Color3.fromRGB(220, 221, 222)
+
 		GlowChannel.Name = "GlowChannel"
 		GlowChannel.Parent = ChannelContentFrame
 		GlowChannel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
