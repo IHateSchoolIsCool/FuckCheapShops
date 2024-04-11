@@ -1,57 +1,6 @@
 local library = loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/0x"))()
 
-local w1 = library:Window("LT2hub") -- Text
-
-w1:Button(
-    "SchoolHub Pc / Emulators",
-    function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/IHateSchoolIsCool/FuckCheapShops/main/SchoolHubV2'))('Fuck Cheap Shops')
-
-    end
-) 
-
-w1:Button(
-    "SchoolHub Phone (CS)",
-    function()
-        print("Hi")
-    end
-) 
-
-
-w1:Button(
-    "Step Script (PC)",
-    function()
-        loadstring(Game:HttpGet("https://bit.ly/Stepshop"))("StepLT2")
-    end
-) 
-
-w1:Button(
-    "Step Script (Mobile)",
-    function()
-        loadstring(Game:HttpGet("https://bit.ly/StepShopMobile"))("StepLT2")
-    end
-) 
-
-w1:Button(
-    "Interject (PC)",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/666TranZit666/Interject/main/Interject.lua"))()
-    end
-) 
-
-w1:Button(
-    "Dazed X",
-    function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/666TranZit666/rewrite/main/Dazed%20X'))()
-    end
-) 
-
-w1:Button(
-    "Toads",
-    function()
-        loadstring(game:HttpGet("https://bit.ly/3x90l99"))("TOADS")
-    end
-) 
+local w1 = library:Window("LT2Hub") -- Text
 
 w1:Button(
     "ButterHub (PC)",
@@ -70,20 +19,54 @@ w1:Button(
 ) 
 
 w1:Button(
-    "Skidware",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/LuaWareLoader.lw/main/luawareloader.wtf",true))()
-    end
-) 
-
-w1:Button(
     "Dark X",
     function()
         loadstring(game:HttpGet"https://raw.githubusercontent.com/darkxwin/darkxsourcethinkyoutousedarkx/main/darkx")()
     end
 ) 
 
+w1:Button(
+    "Dazed X",
+    function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/666TranZit666/rewrite/main/Dazed%20X'))()
+    end
+) 
 
+w1:Button(
+    "Interject (PC)",
+    function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/666TranZit666/Interject/main/Interject.lua"))()
+    end
+)
+
+w1:Button(
+    "SchoolHub Pc / Emulators",
+    function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/IHateSchoolIsCool/FuckCheapShops/main/SchoolHubV3'))('Fuck Cheap Shops')
+
+    end
+) 
+
+w1:Button(
+    "Skidware",
+    function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/LuaWareLoader.lw/main/luawareloader.wtf",true))()
+    end
+)
+
+w1:Button(
+    "Step Script",
+    function()
+        loadstring(Game:HttpGet("https://bit.ly/StepScripts"))("StepLT2")
+    end
+)
+
+w1:Button(
+    "Toads",
+    function()
+        loadstring(game:HttpGet("https://bit.ly/3x90l99"))("TOADS")
+    end
+) 
 
 w1:Button(
     "Destroy GUI",
