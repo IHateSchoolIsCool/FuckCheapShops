@@ -40,6 +40,13 @@ w1:Button(
 )
 
 w1:Button(
+    "NightFall (PC)",
+    function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ItsEcstasy/Nightfall/main/Versions/Latest'))()
+    end
+)
+
+w1:Button(
     "SchoolHub Pc / Emulators",
     function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/IHateSchoolIsCool/FuckCheapShops/main/SchoolHubV3'))('Fuck Cheap Shops')
